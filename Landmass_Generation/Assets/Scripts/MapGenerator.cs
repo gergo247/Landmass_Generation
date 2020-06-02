@@ -7,7 +7,7 @@ public class MapGenerator : MonoBehaviour
     public enum DrawMode { NoiseMap, ColorMap, Mesh}
     public DrawMode drawMode;
     //240 lesz, osztható 2,4,8,12
-    const int mapChunkSize = 241;
+    public const int mapChunkSize = 241;
     [Range(0,6)]
     public int levelOfDetail;
     public float noiseScale;
